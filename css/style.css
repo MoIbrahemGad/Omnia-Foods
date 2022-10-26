@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Lato';
+    font-size: 16px;
+    background-color: #fff;
+color: #333;
+
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+  float: left;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  height: 100px;
+}
+
+.main-nav{
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    /* margin-right: 10px; */
+}
+.main-nav li{
+    margin-left: 30px;
+
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase
+}
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.hero-box{
+    position: absolute; top: 40%; left: 30%;
+    
+    
+}
+h1{
+    font-weight: 400px;
+    color: wheat;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+.bto{
+    text-decoration: none;
+    color: orange;
+    border: solid 1px orange;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    margin-right: 20px;
+    
+}
+.bto:hover{
+    
+    color: white;
+    background-color: orange;
+    
+}
+section{
+    padding: 40px 0px;
+}
+
+h2{
+    font-weight: 400px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+    text-transform: uppercase; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+hr{
+    width: 100px;
+    border: 2px orange solid;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.features-info{
+    width: 60%;
+    margin-left: 20%;
+}
+
+i{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    
+}
+h3{
+    
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.mig-5{
+    /* width: 100% ; */
+    margin: 0px;
+}
+
+.meal{
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.work-left{
+    text-align: right;
+    padding-right: 3%;
+}
+.work-left img{
+    width: 40%;
+    
+}
+
+.step{
+    margin-top: 50px;
+    margin-left: 3%;
+}
+
+.step div{
+    float: left;
+    margin-right: 20px;
+    border: 2px solid orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+.step p{
+    font-size: 18px;
+}
+
+.work-right img{
+    height: 50px;
+   margin-top: 100px;
+   margin-right: 20px;
+}
+
+.city img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.city-inf{
+    margin: 10px;
+    display: flex;
+}
+.city-inf i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.city-inf p{
+    margin-top: 10px;
+}
+.testimonials{
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.testimonials p{
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.MiG-1{
+background-color: whitesmoke;
+width: 30%;
+height: 150px;
+margin-left: 1%;
+}
+
+.MiG-1 h3{
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+margin-top: 10px;
+}
+
+.MiG-1 p{
+font-size: 50px;
+color: orange;
+font-weight: lighter;
+margin-bottom: 20px;
+}
+
+.MMM{
+    width: 100%;
+    color: wheat;
+    margin: 0;
+    background-color: wheat;
+    border: solid white 1px;
+}
+.MiG-2{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 250px;
+    margin-left: 1%;
+ }
+ .MiG-2 h3{
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.MiG-2 p{
+font-size: 50px;
+color: orange;
+font-weight: lighter;
+margin-bottom: 20px;
+}
+
+.MiG-3{
+   height: 70px;
+    margin-left: 1%;
+    width: 30.5%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 0 60px;
+    
+}
+.MiG-3 a{
+    color: orange;
+    text-decoration: none;
+    border: solid orange 2px;
+    /* width: 30%; */
+    background-color: whitesmoke;
+    text-align: center;
+    /* float: left; */
+    padding: 10px;
+    margin: 0 auto; 
+    margin-top: 10px;
+    border-radius: 50px;
+    display: block;
+   
+}
+.MiG-3 a:hover{
+    color: white;
+    background-color: orange;
+}
+
+label{
+    font-size: 18px;
+}
+input[type=text]{
+width: 50%;
+padding: 5px 0px 5px 5px;
+margin-bottom: 12px;
+border-radius: 7px;
+}
+input[type=email]{
+width: 50%;
+padding: 5px 0px 5px 5px;
+margin-bottom: 12px;
+border-radius: 7px;
+}
+
+select{
+width: 50%;
+padding: 5px 0px 5px 5px;
+margin-bottom: 12px;
+border-radius: 7px;
+}
+
+textarea{
+width: 50%;
+padding: 5px 0px 5px 5px;
+margin-bottom: 12px;
+border-radius: 7px;
+}
+
+button{
+    color: wheat;
+    background-color: orange;
+    border-radius: 10px;
+    border: 2px solid orange;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+button:hover{
+    color: orange;
+    background-color: wheat;
+    
+}
+
+
